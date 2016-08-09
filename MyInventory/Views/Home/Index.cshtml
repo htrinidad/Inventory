@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="col-md-12">
+    <p> This small web application uses Entity Framework. I used the code first approach to create a database with some initial values </p>
+    <p> I am making the following assumptions: </p>
+    <ol>
+        <li>All sales are finals No Returns are accepted</li>
+        <li>We are placing only one item per order</li>
+        <li>We are increasing the inventory creating an Order</li>
+        <li>We are decreasing the inventory performing a Sale</li>
+        <li>We are not tracking Costs</li>
+        <li>We are not modifying Orders</li>
+        <li>We are not performing any type of search</li>
+        <li>The on-had is calculated by adding all the inventory orders' product quantity and subtracting all sales' product quantity</li>
+    </ol>
+</div>
